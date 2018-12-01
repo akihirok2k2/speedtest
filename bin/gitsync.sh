@@ -1,9 +1,6 @@
 #!/bin/bash
 
-set -x 
-
-#TMPFILE="$(mktemp -d)/speedtest.log"
-#OUTPUT="/data/git/speedtest/speedtest.tsv"
+#set -x 
 GITDIR="/data/git/speedtest/"
 DATE="$(date "+%Y%m%d")"
 
