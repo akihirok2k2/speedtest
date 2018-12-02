@@ -5,10 +5,9 @@
 set -x 
 
 TMPFILE="$(mktemp -d)/speedtest.log"
-OUTPUT="/data/git/speedtest/speedtest.tsv"
+OUTPUT="/data/git/speedtest/speedtest_router.tsv"
 DATE="$(date "+%Y%m%d-%H%M%S")"
 
-##  6766) JAIST(ino-lab) (Nomi, Japan) [279.62 km]
 /usr/local/bin/speedtest --timeout 60 --simple > $TMPFILE
 
 DOWN_SPEED=$(awk -F: '/Download/{print $2}' $TMPFILE )
