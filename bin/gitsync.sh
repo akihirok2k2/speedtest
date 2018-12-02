@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#set -x 
+set -x 
 GITDIR="/data/git/speedtest/"
 DATE="$(date "+%Y%m%d")"
 
