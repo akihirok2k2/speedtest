@@ -9,4 +9,4 @@ cd $GITDIR
 
 git add -A
 git commit -a -m "Update $DATE to Direct"
-git push origin master
+git push origin feat/direct
