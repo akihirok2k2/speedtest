@@ -8,5 +8,5 @@ DATE="$(date "+%Y%m%d")"
 cd $GITDIR
 
 git add -A
-git commit -a -m "Update $DATE to Direct"
+git commit -a -m "Update $DATE to Router"
 git push origin master
